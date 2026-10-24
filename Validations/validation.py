@@ -54,4 +54,3 @@ def save_validation(y_test, y_pred, y_prob):
         file.write("\n")
 
     print(f"Validation saved to: {file_path}")
-a
