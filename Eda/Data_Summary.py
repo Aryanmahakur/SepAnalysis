@@ -10,7 +10,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 from Datasets.Data1 import loadData
 
 
-df = loadData()
+df = pd.read_csv(r"CleanedDataSet.csv")
 
 print("Dataset Overview")
 print(df.shape)
